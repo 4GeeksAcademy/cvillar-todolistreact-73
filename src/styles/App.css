@@ -1,0 +1,62 @@
+/* src/styles/App.css */
+.App {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+  padding: 20px; /* Añadido para dar algo de espacio dentro del formulario */
+  border: 1px solid #ddd; /* Añadido para el borde */
+  border-radius: 15px; /* Añadido para esquinas redondeadas */
+  display: inline-block; /* Opcional, para ajustar el ancho del formulario */
+  background-color: #f9f9f9; /* Opcional, para mejor visualización */
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+div {
+  margin-top: 10px;
+}
+
+h2 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.todo-list {
+  max-height: 300px; /* Ajusta el tamaño máximo según tus necesidades */
+  overflow-y: auto;  /* Añade un scroll vertical si hay muchas tareas */
+  border: 1px solid #ddd;
+  border-radius: 15px; /* Añade esquinas redondeadas */
+  padding: 10px;
+  max-width: 500px;
+    margin: 8px auto;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+}
+
